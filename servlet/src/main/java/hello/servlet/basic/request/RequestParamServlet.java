@@ -12,7 +12,7 @@ import java.util.Enumeration;
 /**
   http://localhost:8080/request-param?username=kim&age=20
  */
-@WebServlet(name = "reqeustParamServlet", urlPatterns = "/request-param")
+@WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
   @Override
   protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
