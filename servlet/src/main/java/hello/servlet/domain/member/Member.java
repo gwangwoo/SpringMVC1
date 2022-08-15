@@ -1,5 +1,8 @@
 package hello.servlet.domain.member;
 
+import lombok.ToString;
+
+@ToString
 public class Member {
 
   private Long id;
